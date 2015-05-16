@@ -12,5 +12,4 @@ ruleflow-group "EligibilityRule"
          $q: Quote()
     then
 	 $q.setEligibility( "No" );
-	 insertLogical( quote )
 end

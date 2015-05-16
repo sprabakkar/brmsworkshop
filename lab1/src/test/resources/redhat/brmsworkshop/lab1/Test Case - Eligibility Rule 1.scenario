@@ -15,6 +15,12 @@
       <name>driver</name>
       <isModify>false</isModify>
     </fact-data>
+    <fact-data>
+      <type>Quote</type>
+      <fieldData/>
+      <name>quote</name>
+      <isModify>false</isModify>
+    </fact-data>
     <execution-trace>
       <executionTimeResult>0</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
@@ -28,11 +34,11 @@
           <nature>0</nature>
         </expect-field>
       </fieldValues>
-      <name>Quote</name>
-      <anonymous>true</anonymous>
+      <name>quote</name>
+      <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2015-05-16 16:32:58.15 UTC</lastRunResult>
+  <lastRunResult>2015-05-16 16:50:44.686 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>redhat.brmsworkshop.lab1</packageName>

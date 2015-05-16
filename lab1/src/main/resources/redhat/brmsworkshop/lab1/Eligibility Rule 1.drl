@@ -14,15 +14,3 @@ ruleflow-group "EligibilityRule"
 	 quote.setEligibility( "NO" );
 	 insertLogical( quote )
 end
-
-rule "DriverCityEligibilityRules"
-dialect "mvel"
-salience 99
-ruleflow-group "EligibilityRule"
-    when
-        $d : Driver( city == "Dallas" && zipCode == "54321" )
-    then
-        Quote quote = new Quote();
-	    quote.setEligibility( "NO" );
-	    insertLogical( quote )
-end

@@ -21,16 +21,17 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>2</executionTimeResult>
+      <executionTimeResult>1</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>amount</fieldName>
-          <expected>5000</expected>
-          <successResult>true</successResult>
-          <explanation>[Premium] field [amount] was [500].</explanation>
+          <expected>500</expected>
+          <actualResult>500</actualResult>
+          <successResult>false</successResult>
+          <explanation>[Premium] field [amount] was [500] expected [5000].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -39,7 +40,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2015-05-16 17:07:47.175 UTC</lastRunResult>
+  <lastRunResult>2015-05-16 17:07:54.476 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>redhat.brmsworkshop.lab2</packageName>

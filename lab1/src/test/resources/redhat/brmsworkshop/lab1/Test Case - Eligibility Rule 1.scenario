@@ -16,23 +16,26 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>0</executionTimeResult>
+      <executionTimeResult>1</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>eligibility</fieldName>
-          <expected>No</expected>
+          <expected></expected>
+          <actualResult>No match</actualResult>
+          <successResult>false</successResult>
+          <explanation>Fact of type [Quote] was not found in the results.</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>Quote</name>
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2015-05-16 16:22:13.729 UTC</lastRunResult>
+  <lastRunResult>2015-05-16 16:24:30.124 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>redhat.brmsworkshop.lab1</packageName>

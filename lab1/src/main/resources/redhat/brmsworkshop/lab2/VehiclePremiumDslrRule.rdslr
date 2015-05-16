@@ -1,6 +1,9 @@
 package redhat.brmsworkshop.lab2;
 
 import java.lang.Number;
+import com.redhat.brms.Driver;
+import com.redhat.brms.Quote;
+import com.redhat.brms.Premium;
 
 rule "VehiclePremiumDslrRule"
 	dialect "mvel"

@@ -1,0 +1,12 @@
+<scenario>
+  <name>Test Case - Eligibility Rule 2</name>
+  <maxRuleFirings>100000</maxRuleFirings>
+  <globals/>
+  <fixtures/>
+  <rules/>
+  <inclusive>false</inclusive>
+  <packageName>redhat.brmsworkshop.lab1</packageName>
+  <imports>
+    <imports/>
+  </imports>
+</scenario>

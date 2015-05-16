@@ -50,10 +50,8 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2015-05-16 16:40:36.376 UTC</lastRunResult>
-  <rules>
-    <string>DriverCityEligibilityRules</string>
-  </rules>
+  <lastRunResult>2015-05-16 16:41:13.778 UTC</lastRunResult>
+  <rules/>
   <inclusive>true</inclusive>
   <packageName>redhat.brmsworkshop.lab1</packageName>
   <imports>

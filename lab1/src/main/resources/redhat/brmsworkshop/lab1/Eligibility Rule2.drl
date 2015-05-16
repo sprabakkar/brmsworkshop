@@ -5,7 +5,6 @@ import com.redhat.brms.Quote;
 
 rule "DriverCityEligibilityRules"
 dialect "mvel"
-salience 99
 ruleflow-group "EligibilityRule"
     when
         driver : Driver( city == "Dallas" && zipCode == "54321" )

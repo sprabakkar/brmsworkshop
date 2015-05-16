@@ -20,20 +20,26 @@
       <name>YoungDriver</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>2</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>amount</fieldName>
-          <expected>500</expected>
+          <expected>5000</expected>
+          <successResult>true</successResult>
+          <explanation>[Premium] field [amount] was [500].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>Premium</name>
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2015-05-16 17:07:47.175 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>redhat.brmsworkshop.lab2</packageName>

@@ -1,6 +1,8 @@
 package redhat.brmsworkshop.lab1;
 
 import java.lang.Number;
+import com.redhat.brms.Driver;
+import com.redhat.brms.Quote;
 
 rule "test"
 	dialect "mvel"

@@ -15,24 +15,30 @@
       <name>driver</name>
       <isModify>false</isModify>
     </fact-data>
+    <fact-data>
+      <type>Quote</type>
+      <fieldData/>
+      <name>quote</name>
+      <isModify>false</isModify>
+    </fact-data>
     <execution-trace>
-      <executionTimeResult>1</executionTimeResult>
+      <executionTimeResult>0</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>eligibility</fieldName>
-          <expected>NO</expected>
+          <expected>No</expected>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
       </fieldValues>
-      <name>Quote</name>
-      <anonymous>true</anonymous>
+      <name>quote</name>
+      <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2015-05-16 16:24:30.124 UTC</lastRunResult>
+  <lastRunResult>2015-05-16 16:28:37.688 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>redhat.brmsworkshop.lab1</packageName>

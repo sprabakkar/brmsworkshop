@@ -9,7 +9,7 @@ salience 99
 ruleflow-group "EligibilityRule"
     when
         $d : Driver( city == "Dallas" && zipCode == "54321" )
-         $q: Quote()
+         $quote: Quote()
     then
 	 $q.setEligibility( "No" );
 end

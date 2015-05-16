@@ -1,0 +1,9 @@
+package redhat.brmsworkshop.lab1;
+
+import java.lang.Number;
+
+rule "test"
+	dialect "mvel"
+	when
+	then
+end

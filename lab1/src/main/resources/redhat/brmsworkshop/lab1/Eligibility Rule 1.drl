@@ -11,6 +11,6 @@ ruleflow-group "EligibilityRule"
         $d : Driver( age < 18 )
     then
         Quote quote = new Quote();
-	 quote.setEligibility( "NO" );
+	 quote.setEligibility( "No" );
 	 insertLogical( quote )
 end

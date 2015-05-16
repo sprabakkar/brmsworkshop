@@ -1,2 +1,16 @@
 package redhat.brmsworkshop.lab1;
 
+import com.redhat.brms.Driver;
+import com.redhat.brms.Quote;
+
+rule "DriverCityEligibilityRules"
+dialect "mvel"
+salience 99
+ruleflow-group "EligibilityRule"
+    when
+        $d : Driver( city == "Dallas" && zipCode == "54321" )
+    then
+        Quote quote = new Quote();
+	    quote.setEligibility( "NO" );
+	    insertLogical( quote )
+end

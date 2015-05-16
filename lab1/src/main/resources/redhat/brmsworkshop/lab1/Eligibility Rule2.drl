@@ -8,8 +8,8 @@ dialect "mvel"
 salience 99
 ruleflow-group "EligibilityRule"
     when
-        $d : Driver( city == "Dallas" && zipCode == "54321" )
-         $quote: Quote()
+        driver : Driver( city == "Dallas" && zipCode == "54321" )
+        quote : Quote();
     then
-	 $q.setEligibility( "No" );
+        quote.setEligibility( "No" );
 end

@@ -23,7 +23,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>eligibility</fieldName>
-          <expected></expected>
+          <expected>No</expected>
           <actualResult>No match</actualResult>
           <successResult>false</successResult>
           <explanation>Fact of type [Quote] was not found in the results.</explanation>

@@ -29,7 +29,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>eligibility</fieldName>
-          <expected>No</expected>
+          <expected>Yes</expected>
           <actualResult></actualResult>
           <successResult>false</successResult>
           <explanation>[quote] field [eligibility] was [] expected [No].</explanation>
@@ -41,10 +41,8 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2015-05-16 16:30:49.993 UTC</lastRunResult>
-  <rules>
-    <string>DriverAgeEligibilityRules</string>
-  </rules>
+  <lastRunResult>2015-05-16 16:32:12.697 UTC</lastRunResult>
+  <rules/>
   <inclusive>true</inclusive>
   <packageName>redhat.brmsworkshop.lab1</packageName>
   <imports>

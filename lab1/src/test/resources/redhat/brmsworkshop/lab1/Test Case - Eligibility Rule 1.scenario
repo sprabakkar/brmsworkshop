@@ -34,6 +34,10 @@
       <name>Quote</name>
       <anonymous>true</anonymous>
     </expect-fact>
+    <expect-rule>
+      <ruleName>DriverAgeEligibilityRules</ruleName>
+      <expectedFire>true</expectedFire>
+    </expect-rule>
   </fixtures>
   <lastRunResult>2015-05-16 16:24:30.124 UTC</lastRunResult>
   <rules/>

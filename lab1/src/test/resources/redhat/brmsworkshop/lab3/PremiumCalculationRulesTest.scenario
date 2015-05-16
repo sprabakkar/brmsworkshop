@@ -1,0 +1,12 @@
+<scenario>
+  <name>PremiumCalculationRulesTest</name>
+  <maxRuleFirings>100000</maxRuleFirings>
+  <globals/>
+  <fixtures/>
+  <rules/>
+  <inclusive>false</inclusive>
+  <packageName>redhat.brmsworkshop.lab3</packageName>
+  <imports>
+    <imports/>
+  </imports>
+</scenario>

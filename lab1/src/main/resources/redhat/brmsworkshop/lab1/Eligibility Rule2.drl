@@ -11,6 +11,6 @@ ruleflow-group "EligibilityRule"
         $d : Driver( city == "Dallas" && zipCode == "54321" )
     then
         Quote quote = new Quote();
-	    quote.setEligibility( "NO" );
+	    quote.setEligibility( "No" );
 	    insertLogical( quote )
 end

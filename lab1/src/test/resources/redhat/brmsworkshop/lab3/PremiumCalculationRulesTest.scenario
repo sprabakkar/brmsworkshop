@@ -27,20 +27,26 @@
       <name>vehicle1</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>1</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>amount</fieldName>
-          <expected>1000</expected>
+          <expected>10000</expected>
+          <successResult>true</successResult>
+          <explanation>[Premium] field [amount] was [1000].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>Premium</name>
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2015-05-16 17:28:26.238 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>redhat.brmsworkshop.lab3</packageName>
